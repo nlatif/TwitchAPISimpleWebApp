@@ -1,0 +1,80 @@
+/******************CSS**************************/
+.contentDiv {
+	border-style: groove;
+	width: 900px;
+	height: 600px;
+	top: 50%;
+	left: 50%;
+	position: relative;
+	margin-left: -450px;
+    margin-top: -300px;
+}
+
+.search {
+	position: relative;
+	top: 50%;
+	margin-top: -200px;
+    border-bottom: 1px groove;
+}
+
+#searchString{
+	margin-left: 15px;
+	top: -50px;
+	position: relative;
+}
+
+#searchButton {
+	margin-left: 10px;
+	top: -50px;
+	position: relative;
+}
+
+.resultLabel {
+	position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: 310px;
+    margin-left: -433px;
+}
+
+.pagesBefore {
+	width: 10px;
+	height: 10px;
+}
+
+.pagesAfter {
+	width: 10px;
+	height: 10px;
+}
+
+.totalResults {
+	display: inline-block;
+}
+
+.logoImg {
+	width: 50px;
+    height: 50px;
+}
+
+.streamDispName {
+    margin-left: 75px;
+    margin-top: -45px;
+}
+
+.streamDesc, .streamName {
+    margin-left: 75px;
+}
+
+.streamInfoDiv {
+	padding: 10 10 10 10;;
+}
+
+.pagesAfter, .pagesBefore, #pagesStream {
+	float: right;
+}
+
+#pagesStream {
+	margin-top: -4px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
