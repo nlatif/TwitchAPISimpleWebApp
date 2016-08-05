@@ -1,0 +1,23 @@
+<!DOCTYPE html><!--HTML5 doctype-->
+<html>
+	<head>
+		<script src="https://code.jquery.com/jquery.min.js"></script>
+		<script src="https://ttv-api.s3.amazonaws.com/twitch.min.js"></script>
+		<script type="text/javascript" src="./main.js"></script>
+		<link href="./main.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="contentDiv">
+			<div class="search">
+				<input type="text" placeholder="Search query..." id="searchString"><button type="button" id="searchButton" onclick="search()">Search</button>
+			</div>
+			<div class="renderDiv">
+				<div class="resultLabel">Total Results: <div id="totalResults"></div></div>
+				<img class="pagesAfter" src="./images/right.png" onclick="afterPage()"></img>
+				<div id="pagesStream"></div>
+				<img class="pagesBefore" src="./images/left.png"onclick="beforePage()"></img>
+				<div id="streamsDiv"></div>
+			</div>
+		</div>
+	</body>
+</html>
